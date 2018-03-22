@@ -32,10 +32,9 @@ end
 [x,y]=meshgrid(xx,yy);
 
 % color map
-% imagesc(Z);
-% colormap(gray);
-% mesh(x,y,yys2);
-% colorbar;
+ colormap(cool);
+ mesh(x,y,yys2);
+ colorbar;
 
 % gray map
 imagesc(yys2);
